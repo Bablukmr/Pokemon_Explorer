@@ -21,7 +21,7 @@ export default function PokemonDetailPage () {
 
     if (!pokemon) return (<div className="flex justify-center items-center mt-6">
         <div className="w-6 h-6 border-4 border-blue-500 border-solid border-t-transparent rounded-full animate-spin"></div>
-        <p className="ml-3 text-gray-600">Loading Pokémon...</p>
+        <p className="ml-3 text-gray-600">Loading ...</p>
     </div>);
 
     return (
