@@ -113,7 +113,10 @@ export default function HomePage () {
 
 
         {filteredPokemons.length === 0 && (
-          <p className="text-center text-gray-500 mt-6">No Pokémon found.</p>
+          <div className="flex justify-center items-center mt-6">
+            <div className="w-12 h-12 border-4 border-blue-500 border-solid border-t-transparent rounded-full animate-spin"></div>
+            <p className="ml-3 text-gray-600">Loading Pokémon...</p>
+          </div>
         )}
       </div>
     </div>
