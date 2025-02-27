@@ -101,7 +101,7 @@ export default function HomePage () {
             {[...Array(totalPages)].map((_, index) => (
               <button
                 key={index + 1}
-                className={`px-4 py-2 rounded whitespace-nowrap ${currentPage === index + 1 ? 'bg-blue-500 text-white' : 'bg-gray-200'
+                className={`px-4 py-2 cursor-pointer rounded whitespace-nowrap ${currentPage === index + 1 ? 'bg-blue-500 text-white' : 'bg-gray-200'
                   }`}
                 onClick={() => handlePageChange(index + 1)}
               >
